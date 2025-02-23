@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.calendar-container {
+    max-width: 400px;
+    margin: auto;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-top: 8px;
+    width: 90%;
+}

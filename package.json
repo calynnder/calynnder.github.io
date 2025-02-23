@@ -1,0 +1,19 @@
+{
+  "name": "calynder-app",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://calynnder.github.io",
+  "dependencies": {
+  "react": "^18.0.0",
+  "react-dom": "^18.0.0",
+  "react-router-dom": "^6.0.0",
+  "react-calendar": "^3.0.0",
+  "firebase": "^10.0.0"
+  },
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+  }
+}
